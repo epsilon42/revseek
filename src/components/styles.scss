@@ -1,0 +1,181 @@
+html {
+  box-sizing: border-box;
+  background: #000428;
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+  background: linear-gradient(to bottom, #004e92, #000428);
+  height: 100%;
+  width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  color: #fff;
+}
+
+.App {
+  border-radius: 8px;
+  text-align: center;
+  padding: 16px;
+  width: calc(100% - 32px);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 16px;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.SearchBar {
+  input {
+    display: block;
+    font-family: "Cabin", sans-serif;
+    font-size: 1.2rem;
+    border: 0;
+    outline: 0;
+
+    &[type="text"] {
+      width: 100%;
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    &[type="submit"] {
+      margin: 0 auto;
+      margin-top: 16px;
+      border-radius: 32px;
+      cursor: pointer;
+      transition: 0.1s linear all;
+      background: rgba(0, 0, 0, 0.2);
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 16px 32px;
+
+      &:hover {
+        background: rgba(88, 160, 224, 0.75);
+        color: #fff;
+        padding: 16px 48px;
+      }
+    }
+  }
+}
+
+.JobDetails {
+  margin-top: 32px;
+  padding: 32px;
+  background: rgba(0, 0, 0, 0.2);
+  .description {
+    margin: 0;
+    margin-top: 16px;
+    span {
+      display: block;
+    }
+    .title {
+      text-transform: uppercase;
+    }
+    .advertiserName {
+      color: #00ceff;
+    }
+  }
+  .salary {
+    font-size: 2rem;
+    margin: 0;
+    .spinner {
+      display: block;
+      transform: scale(.5);
+    }
+  }
+}
+
+// Loading.io Spinner CSS
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
