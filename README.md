@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Clone the repo and navigate to the folder
 2. Install project dependencies with: `npm i`
 3. Start the express server: `node src/server.js`
-4. Launch the app: `npm start`
+4. In another terminal window, launch the app: `npm start`
 
 ---
 
