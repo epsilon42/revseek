@@ -2,6 +2,7 @@
   "name": "revseek",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://epsilon42.github.io/revseek/",
   "dependencies": {
     "axios": "^0.19.0",
     "node-sass": "^4.13.0",
@@ -11,11 +12,14 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "npm run both",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "node ./src/server.js"
+    "serve": "node ./src/server.js",
+    "both": "node ./src/server.js & react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
