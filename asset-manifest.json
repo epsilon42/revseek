@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/revseek/static/css/main.ba2ed162.chunk.css",
+    "main.css": "/revseek/static/css/main.135bf746.chunk.css",
     "main.js": "/revseek/static/js/main.acd0d37d.chunk.js",
     "main.js.map": "/revseek/static/js/main.acd0d37d.chunk.js.map",
     "runtime-main.js": "/revseek/static/js/runtime-main.ac25582e.js",
@@ -8,14 +8,14 @@
     "static/js/2.5bd34373.chunk.js": "/revseek/static/js/2.5bd34373.chunk.js",
     "static/js/2.5bd34373.chunk.js.map": "/revseek/static/js/2.5bd34373.chunk.js.map",
     "index.html": "/revseek/index.html",
-    "precache-manifest.21a89009ad510ea3d9f8d847c0eac0e8.js": "/revseek/precache-manifest.21a89009ad510ea3d9f8d847c0eac0e8.js",
+    "precache-manifest.5aa7c20d0b0801200a01ee3648dd9950.js": "/revseek/precache-manifest.5aa7c20d0b0801200a01ee3648dd9950.js",
     "service-worker.js": "/revseek/service-worker.js",
-    "static/css/main.ba2ed162.chunk.css.map": "/revseek/static/css/main.ba2ed162.chunk.css.map"
+    "static/css/main.135bf746.chunk.css.map": "/revseek/static/css/main.135bf746.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.ac25582e.js",
     "static/js/2.5bd34373.chunk.js",
-    "static/css/main.ba2ed162.chunk.css",
+    "static/css/main.135bf746.chunk.css",
     "static/js/main.acd0d37d.chunk.js"
   ]
 }
