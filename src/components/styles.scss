@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+
+  height: 100%;
 }
 *,
 *:before,
@@ -15,6 +17,8 @@ body {
   background: #000428;
   background: -webkit-linear-gradient(to bottom, #004e92, #000428);
   background: linear-gradient(to bottom, #004e92, #000428);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
 }
@@ -26,7 +30,7 @@ body {
   width: calc(100% - 32px);
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 16px;
+  // margin-top: 16px;
 
   h1 {
     text-transform: uppercase;
