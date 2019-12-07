@@ -14,11 +14,12 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "npm run serve",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "node ./src/server.js",
+    "dev": "npm run both",
     "both": "node ./src/server.js & react-scripts start"
   },
   "eslintConfig": {
