@@ -1,10 +1,5 @@
 html {
   box-sizing: border-box;
-  background: #000428;
-  background: -webkit-linear-gradient(to bottom, #004e92, #000428);
-  background: linear-gradient(to bottom, #004e92, #000428);
-  height: 100%;
-  width: 100%;
 }
 *,
 *:before,
@@ -17,6 +12,11 @@ body {
   padding: 0;
   font-family: "Cabin", sans-serif;
   color: #fff;
+  background: #000428;
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+  background: linear-gradient(to bottom, #004e92, #000428);
+  height: 100%;
+  width: 100%;
 }
 
 .App {
@@ -57,6 +57,7 @@ body {
       color: #fff;
       border: 2px solid #fff;
       padding: 16px 32px;
+      -webkit-appearance: none;
 
       &:hover {
         background: rgba(88, 160, 224, 0.75);
