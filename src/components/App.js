@@ -60,7 +60,9 @@ class App extends React.Component {
   getJobInfo = term => {
     console.log(`getJobInfo`);
     return new Promise((resolve, reject) => {
-      const response = axios.get(`http://localhost:3001/job-info/${term}`);
+      const response = axios.get(
+        `${process.env.REACT_APP_EXPRESS_SERVER}/job-info/${term}`
+      );
       resolve(response);
     });
   };
@@ -91,7 +93,7 @@ class App extends React.Component {
     console.log(`findMaximum`);
     for (let i = 0; i < 15; i++) {
       const response = await axios.get(
-        `http://localhost:3001/salary-range/${
+        `${process.env.REACT_APP_EXPRESS_SERVER}/salary-range/${
           this.state.advertiserId
         }/${Math.round(this.state.salaryVar)}/${Math.round(
           this.state.upperLimit
@@ -133,7 +135,7 @@ class App extends React.Component {
       async () => {
         for (let i = 0; i < 10; i++) {
           const response = await axios.get(
-            `http://localhost:3001/salary-range/${
+            `${process.env.REACT_APP_EXPRESS_SERVER}/salary-range/${
               this.state.advertiserId
             }/${Math.round(this.state.lowerLimit)}/${Math.round(
               this.state.salaryVar
