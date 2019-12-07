@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/revseek/static/css/main.02f0d6ea.chunk.css",
-    "main.js": "/revseek/static/js/main.ff7ebd2b.chunk.js",
-    "main.js.map": "/revseek/static/js/main.ff7ebd2b.chunk.js.map",
+    "main.js": "/revseek/static/js/main.acd0d37d.chunk.js",
+    "main.js.map": "/revseek/static/js/main.acd0d37d.chunk.js.map",
     "runtime-main.js": "/revseek/static/js/runtime-main.ac25582e.js",
     "runtime-main.js.map": "/revseek/static/js/runtime-main.ac25582e.js.map",
     "static/js/2.5bd34373.chunk.js": "/revseek/static/js/2.5bd34373.chunk.js",
     "static/js/2.5bd34373.chunk.js.map": "/revseek/static/js/2.5bd34373.chunk.js.map",
     "index.html": "/revseek/index.html",
-    "precache-manifest.24489b38a9550d396d9d4ee565c74ee9.js": "/revseek/precache-manifest.24489b38a9550d396d9d4ee565c74ee9.js",
+    "precache-manifest.111e02c95020cd69bdc31890a4d21c6d.js": "/revseek/precache-manifest.111e02c95020cd69bdc31890a4d21c6d.js",
     "service-worker.js": "/revseek/service-worker.js",
     "static/css/main.02f0d6ea.chunk.css.map": "/revseek/static/css/main.02f0d6ea.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ac25582e.js",
     "static/js/2.5bd34373.chunk.js",
     "static/css/main.02f0d6ea.chunk.css",
-    "static/js/main.ff7ebd2b.chunk.js"
+    "static/js/main.acd0d37d.chunk.js"
   ]
 }
