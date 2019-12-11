@@ -75,11 +75,14 @@ class App extends React.Component {
       response.data.data[0].title.replace(/[^a-zA-Z ]/g, " ")
     );
     const teaser = encodeURI(
-      response.data.data[0].teaser.replace(/[^a-zA-Z ]/g, " ")
+      response.data.data[0].teaser
+        .replace(/ not /gi, " ") // remove 'not' from teaser as Seek API has boolean enabled
+        .replace(/[^a-zA-Z ]/g, " ") // remove special chars/only keep alpha chars
     );
     // const teaser = encodeURI(
     //   response.data.data[0].teaser.replace(/[^a-zA-Z ]/g, " ")
     // ).substring(0, 180);
+    // hello knot not notting hill
 
     this.setState({
       advertiserId,
