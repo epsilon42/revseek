@@ -74,12 +74,13 @@ class App extends React.Component {
     const titleEncoded = encodeURI(
       response.data.data[0].title.replace(/[^a-zA-Z ]/g, " ")
     );
+
     const teaser = encodeURI(
       response.data.data[0].teaser
-        .replace(/ html /gi, " ") // remove 'not' from teaser as Seek API has boolean enabled
-        .replace(/ Html /gi, " ") // remove 'not' from teaser as Seek API has boolean enabled
-        .replace(/ HTML /gi, " ") // remove 'not' from teaser as Seek API has boolean enabled
-        .replace(/ not /gi, " ") // remove 'not' from teaser as Seek API has boolean enabled
+        .replace(/ html/gi, " ") // remove ' html' from teaser as Seek API has boolean enabled
+        .replace(/ Html/gi, " ") // remove ' Html' from teaser as Seek API has boolean enabled
+        .replace(/ HTML/gi, " ") // remove ' HTML' from teaser as Seek API has boolean enabled
+        .replace(/ not /gi, " ") // remove ' not ' from teaser as Seek API has boolean enabled
         .replace(/[^a-zA-Z ]/g, " ") // remove special chars/only keep alpha chars
     );
     // const teaser = encodeURI(
