@@ -9,7 +9,7 @@ I created this small app to streamline that process and to familiarise myself wi
 All you need is the full URL for the job listing and then you let the app work its magic! 🤘
 
 Go here to see it in action:
-https://epsilon42.github.io/revseek/
+~~https://epsilon42.github.io/revseek/~~ (no longer works due to Heroku removing free tier) 
 
 **Note:** The above demo uses an Express server that's hosted on a free Heroku plan so the dyno sometimes takes a moment to start/respond. For a faster app experience setup the Express server locally.
 
